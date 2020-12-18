@@ -1,4 +1,7 @@
-## 1.最小复现仓库
+## 1.问题描述
+- 只要用cnpm 安装依赖，并且开启`cache:{ type: 'filesystem'}`就会卡死，打包无法成功 
+- [issues地址](https://github.com/cnpm/cnpm/issues/335)
+
 ### 1. 安装 
 ```js
 cnpm install
